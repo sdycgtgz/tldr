@@ -2,6 +2,8 @@
 
 > Monitor performance of various Linux subsystems.
 > More information: <https://manned.org/sar>.
+>
+> 也可参考格雷格<<性能之巅>>第二版的4.4章节,可以用sadf查看不同格式的统计数据`sadf -j -- -n TCP`
 
 - Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
 
