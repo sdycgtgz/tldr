@@ -2,6 +2,7 @@
 
 > Troubleshooting tool for tracing system calls.
 > More information: <https://manned.org/strace>.
+> `strace`开销比较大,只有在调试时使用,还可使用`perf`的`trace`子命令.可参考其他跟踪器`bcc`,`bpftrace`,`ftrace`
 
 - Start tracing a specific [p]rocess by its PID:
 

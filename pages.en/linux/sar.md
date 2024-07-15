@@ -28,3 +28,13 @@
 - Report paging statistics, one per 5 seconds:
 
 `sar -B {{5}}`
+
+# Result
+
+> 统计信息含义和单位详见<<性能之巅>>第二版表7.5
+
+-  -B: Paging statistics 
+-  -H: Huge pages statistics 
+-  -r: Memory utilization 
+-  -S: Swap space statistics 
+-  -W: Swapping statistics
