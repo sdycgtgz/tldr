@@ -3,7 +3,7 @@
 > Monitor performance of various Linux subsystems.
 > More information: <https://manned.org/sar>.
 >
-> 也可参考格雷格<<性能之巅>>第二版的4.4章节,可以用sadf查看不同格式的统计数据`sadf -j -- -n TCP`
+> 也可参考格雷格<<性能之巅>>第二版的4.4,10.6.6章节和附录B,可以用sadf查看不同格式的统计数据`sadf -j -- -n TCP`
 
 - Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
 
@@ -29,6 +29,10 @@
 
 `sar -B {{5}}`
 
+- 文件系统统计信息
+
+`sar -v {{1}}`
+
 # Result
 
 > 统计信息含义和单位详见<<性能之巅>>第二版表7.5
@@ -38,3 +42,7 @@
 -  -r: Memory utilization 
 -  -S: Swap space statistics 
 -  -W: Swapping statistics
+-   dentunusd: Directory entry cache unused count (available entries) 
+-   file-nr: Number of file handles in use
+-    inode-nr: Number of inodes in use 
+-   pty-nr: Number of pseudo-terminals in use

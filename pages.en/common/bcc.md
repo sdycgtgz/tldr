@@ -2,7 +2,7 @@
 
 > BCC is a toolkit for creating efficient kernel tracing and manipulation programs, and includes several useful tools and examples. It makes use of extended BPF (Berkeley Packet Filters), formally known as eBPF, a new feature that was first added to Linux 3.15. Much of what BCC uses requires Linux 4.1 and above.
 > More information: <https://github.com/iovisor/bcc>.
-> 其中`profile`等用法可参考<<性能之巅>>第二版6.6.14-6.6.19
+> 其中`profile`等用法可参考<<性能之巅>>第二版6.6.14-6.6.19和第15章
 
 # Tracing
 
